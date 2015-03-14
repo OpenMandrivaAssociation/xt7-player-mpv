@@ -75,7 +75,7 @@ Requires:	%{_lib}taglib1
 Requires:	%{_lib}taglib_c0
 
 # default player
-Requires:	mpv
+Requires:	mpv >= 0.8.2
 
 # 4 GUI
 Requires:	gambas3-runtime >= 3.6.2
