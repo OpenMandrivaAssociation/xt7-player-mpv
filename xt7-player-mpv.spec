@@ -16,6 +16,7 @@ Source100:	%{oname}.rpmlintrc
 License:	GPLv2
 Group:		Video
 BuildArch:	noarch
+
 BuildRequires:	gambas3-devel >= 3.6.2
 BuildRequires:	gambas3-runtime >= 3.6.2
 BuildRequires:	gambas3-gb-qt4 >= 3.6.2
@@ -40,6 +41,7 @@ BuildRequires:	gambas3-gb-compress >= 3.6.2
 BuildRequires:	gambas3-gb-form-dialog >= 3.6.2
 BuildRequires:	gambas3-gb-signal >= 3.6.2
 BuildRequires:	gambas3-gb-libxml >= 3.6.2
+BuildRequires:	gambas3-gb-form-stock  >= 3.6.2
 
 # 4 desktop file install/check
 BuildRequires:	desktop-file-utils
