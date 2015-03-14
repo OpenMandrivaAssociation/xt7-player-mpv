@@ -9,7 +9,7 @@
 Summary:	Xt7-player mpv GUI
 Name:		%{oname}
 Version:	%{version}
-Release:	1
+Release:	4
 URL:		http://xt7-player.sourceforge.net/xt7forum/
 Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/v%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
@@ -54,7 +54,7 @@ Requires:	dvbsnoop
 Requires:	dvb-apps
 
 # 4 downloading from youtube
-Requires:	youtube-dl >= 2014.10.18
+Requires:	config(youtube-dl) >= 2015.03.09
 Requires:	xterm
 Requires:	wget
 
