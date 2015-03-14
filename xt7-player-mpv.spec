@@ -16,30 +16,30 @@ Source100:	%{oname}.rpmlintrc
 License:	GPLv2
 Group:		Video
 BuildArch:	noarch
-BuildRequires:	gambas3-runtime >= 3.6.1
-BuildRequires:	gambas3-gb-qt4
-BuildRequires:	gambas3-gb-form
-BuildRequires:	gambas3-gb-desktop
-BuildRequires:	gambas3-gb-form-mdi
-BuildRequires:	gambas3-gb-net
-BuildRequires:	gambas3-gb-net-curl
-BuildRequires:	gambas3-gb-settings
-BuildRequires:	gambas3-gb-xml
-BuildRequires:	gambas3-gb-web
-BuildRequires:	gambas3-devel >= 3.6.1
-BuildRequires:	gambas3-gb-image
-BuildRequires:	gambas3-gb-image-imlib
-BuildRequires:	gambas3-gb-image-io
-BuildRequires:	gambas3-gb-db
-BuildRequires:	gambas3-gb-dbus
-BuildRequires:	gambas3-gb-db-form
-BuildRequires:	gambas3-gb-qt4-ext
+BuildRequires:	gambas3-devel >= 3.6.2
+BuildRequires:	gambas3-runtime >= 3.6.2
+BuildRequires:	gambas3-gb-qt4 >= 3.6.2
+BuildRequires:	gambas3-gb-form >= 3.6.2
+BuildRequires:	gambas3-gb-desktop >= 3.6.2
+BuildRequires:	gambas3-gb-form-mdi >= 3.6.2
+BuildRequires:	gambas3-gb-net >= 3.6.2
+BuildRequires:	gambas3-gb-net-curl >= 3.6.2
+BuildRequires:	gambas3-gb-settings >= 3.6.2
+BuildRequires:	gambas3-gb-xml >= 3.6.2
+BuildRequires:	gambas3-gb-web >= 3.6.2
+BuildRequires:	gambas3-gb-image >= 3.6.2
+BuildRequires:	gambas3-gb-image-imlib >= 3.6.2
+BuildRequires:	gambas3-gb-image-io >= 3.6.2
+BuildRequires:	gambas3-gb-db >= 3.6.2
+BuildRequires:	gambas3-gb-dbus >= 3.6.2
+BuildRequires:	gambas3-gb-db-form >= 3.6.2
+BuildRequires:	gambas3-gb-qt4-ext >= 3.6.2
 BuildRequires:	pkgconfig(taglib)
-BuildRequires:	gambas3-gb-gui
-BuildRequires:	gambas3-gb-compress
-BuildRequires:	gambas3-gb-form-dialog
-BuildRequires:	gambas3-gb-signal >= 3.6.1
-BuildRequires:	gambas3-gb-libxml >= 3.6.1
+BuildRequires:	gambas3-gb-gui >= 3.6.2
+BuildRequires:	gambas3-gb-compress >= 3.6.2
+BuildRequires:	gambas3-gb-form-dialog >= 3.6.2
+BuildRequires:	gambas3-gb-signal >= 3.6.2
+BuildRequires:	gambas3-gb-libxml >= 3.6.2
 
 # 4 desktop file install/check
 BuildRequires:	desktop-file-utils
@@ -76,28 +76,28 @@ Requires:	%{_lib}taglib_c0
 Requires:	mpv
 
 # 4 GUI
-Requires:	gambas3-runtime >= 3.6.1
-Requires:	gambas3-gb-image
-Requires:	gambas3-gb-dbus
-Requires:	gambas3-gb-qt4 >= 3.6.1
-Requires:	gambas3-gb-gtk
-Requires:	gambas3-gb-gui >= 3.6.1
-Requires:	gambas3-gb-form
-Requires:	gambas3-gb-xml
-Requires:	gambas3-gb-qt4-ext
-Requires:	gambas3-gb-form-stock
-Requires:	gambas3-gb-net
-Requires:	gambas3-gb-form-dialog
-Requires:	gambas3-gb-settings
-Requires:	gambas3-gb-form-mdi
-Requires:	gambas3-gb-compress
-Requires:	gambas3-gb-desktop
-Requires:	gambas3-gb-web
-Requires:	gambas3-gb-net-curl
-Requires:	gambas3-gb-signal >= 3.6.1
+Requires:	gambas3-runtime >= 3.6.2
+Requires:	gambas3-gb-image >= 3.6.2
+Requires:	gambas3-gb-dbus >= 3.6.2
+Requires:	gambas3-gb-qt4 >= 3.6.2
+Requires:	gambas3-gb-gtk >= 3.6.2
+Requires:	gambas3-gb-gui >= 3.6.2
+Requires:	gambas3-gb-form >= 3.6.2
+Requires:	gambas3-gb-xml >= 3.6.2
+Requires:	gambas3-gb-qt4-ext >= 3.6.2
+Requires:	gambas3-gb-form-stock  >= 3.6.2
+Requires:	gambas3-gb-net >= 3.6.2
+Requires:	gambas3-gb-form-dialog >= 3.6.2
+Requires:	gambas3-gb-settings >= 3.6.2
+Requires:	gambas3-gb-form-mdi >= 3.6.2
+Requires:	gambas3-gb-compress >= 3.6.2
+Requires:	gambas3-gb-desktop >= 3.6.2
+Requires:	gambas3-gb-web >= 3.6.2
+Requires:	gambas3-gb-net-curl >= 3.6.2
+Requires:	gambas3-gb-signal >= 3.6.2
 
 # 4 icecast
-Requires:	gambas3-gb-libxml >= 3.6.1
+Requires:	gambas3-gb-libxml >= 3.6.2
 
 Provides:	Xt7-player3
 Provides:	xt7-player3
