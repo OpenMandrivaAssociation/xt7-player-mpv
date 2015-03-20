@@ -1,7 +1,7 @@
 # First release based on mpv 
 # New versioning, and new deps.
 
-%define mpv_version 0.8.2
+%define mpv_version 0.8.3
 %define gba_version 362
 %define version %{mpv_version}%{gba_version}
 %define oname xt7-player-mpv
@@ -9,7 +9,7 @@
 Summary:	Xt7-player mpv GUI
 Name:		%{oname}
 Version:	%{version}
-Release:	4
+Release:	1
 URL:		http://xt7-player.sourceforge.net/xt7forum/
 Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/v%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
