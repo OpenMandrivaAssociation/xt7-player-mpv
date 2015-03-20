@@ -11,7 +11,7 @@ Name:		%{oname}
 Version:	%{version}
 Release:	1
 URL:		http://xt7-player.sourceforge.net/xt7forum/
-Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/v%{version}.tar.gz
+Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
 License:	GPLv2
 Group:		Video
