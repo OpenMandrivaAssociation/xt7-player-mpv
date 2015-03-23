@@ -9,13 +9,14 @@
 Summary:	Xt7-player mpv GUI
 Name:		%{oname}
 Version:	%{version}
-Release:	1
+Release:	2
 URL:		http://xt7-player.sourceforge.net/xt7forum/
 Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
 License:	GPLv2
 Group:		Video
 BuildArch:	noarch
+
 
 BuildRequires:	gambas3-devel >= 3.6.2
 BuildRequires:	gambas3-runtime >= 3.6.2
