@@ -9,14 +9,13 @@
 Summary:	Xt7-player mpv GUI
 Name:		%{oname}
 Version:	%{version}
-Release:	2
+Release:	3
 URL:		http://xt7-player.sourceforge.net/xt7forum/
 Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
 License:	GPLv2
 Group:		Video
 BuildArch:	noarch
-
 
 BuildRequires:	gambas3-devel >= 3.6.2
 BuildRequires:	gambas3-runtime >= 3.6.2
@@ -131,12 +130,9 @@ convert %{oname}.png -resize 32x32 %{buildroot}%{_iconsdir}/%{oname}.png
 convert %{oname}.png -resize 16x16 %{buildroot}%{_miconsdir}/%{oname}.png
 install -p %{oname}.png %{buildroot}%{_liconsdir}/%{oname}.png
 
-
-
 #menu entry
 desktop-file-install  %{oname}.desktop\
 	--dir %{buildroot}%{_datadir}/applications
-
 
 %files
 %doc COPYING README CHANGELOG_GIT
