@@ -9,7 +9,7 @@
 Summary:	Xt7-player mpv GUI
 Name:		%{oname}
 Version:	%{version}
-Release:	3
+Release:	4
 URL:		http://xt7-player.sourceforge.net/xt7forum/
 Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
@@ -42,6 +42,7 @@ BuildRequires:	gambas3-gb-form-dialog >= 3.6.2
 BuildRequires:	gambas3-gb-signal >= 3.6.2
 BuildRequires:	gambas3-gb-libxml >= 3.6.2
 BuildRequires:	gambas3-gb-form-stock  >= 3.6.2
+BuildRequires:	gambas3-gb-util-web >= 3.7.1
 
 # 4 desktop file install/check
 BuildRequires:	desktop-file-utils
@@ -57,6 +58,7 @@ Requires:	dvb-apps
 Requires:	config(youtube-dl) >= 2015.03.09
 Requires:	xterm
 Requires:	wget
+Requires:	gambas3-gb-util-web >= 3.7.1
 
 # 4 audio extract/convert
 Requires:	ffmpeg
@@ -75,31 +77,31 @@ Requires:	%{_lib}taglib1
 Requires:	%{_lib}taglib_c0
 
 # default player
-Requires:	mpv >= 0.8.2
+Requires:	mpv >= 0.8.3
 
 # 4 GUI
-Requires:	gambas3-runtime >= 3.6.2
-Requires:	gambas3-gb-image >= 3.6.2
-Requires:	gambas3-gb-dbus >= 3.6.2
-Requires:	gambas3-gb-qt4 >= 3.6.2
-Requires:	gambas3-gb-gtk >= 3.6.2
-Requires:	gambas3-gb-gui >= 3.6.2
-Requires:	gambas3-gb-form >= 3.6.2
-Requires:	gambas3-gb-xml >= 3.6.2
-Requires:	gambas3-gb-qt4-ext >= 3.6.2
-Requires:	gambas3-gb-form-stock  >= 3.6.2
-Requires:	gambas3-gb-net >= 3.6.2
-Requires:	gambas3-gb-form-dialog >= 3.6.2
-Requires:	gambas3-gb-settings >= 3.6.2
-Requires:	gambas3-gb-form-mdi >= 3.6.2
-Requires:	gambas3-gb-compress >= 3.6.2
-Requires:	gambas3-gb-desktop >= 3.6.2
-Requires:	gambas3-gb-web >= 3.6.2
-Requires:	gambas3-gb-net-curl >= 3.6.2
-Requires:	gambas3-gb-signal >= 3.6.2
+Requires:	gambas3-runtime >= 3.7.1
+Requires:	gambas3-gb-image >= 3.7.1
+Requires:	gambas3-gb-dbus >= 3.7.1
+Requires:	gambas3-gb-qt4 >= 3.7.1
+Requires:	gambas3-gb-gtk >= 3.7.1
+Requires:	gambas3-gb-gui >= 3.7.1
+Requires:	gambas3-gb-form >= 3.7.1
+Requires:	gambas3-gb-xml >= 3.7.1
+Requires:	gambas3-gb-qt4-ext >= 3.7.1
+Requires:	gambas3-gb-form-stock  >= 3.7.1
+Requires:	gambas3-gb-net >= 3.7.1
+Requires:	gambas3-gb-form-dialog >= 3.7.1
+Requires:	gambas3-gb-settings >= 3.7.1
+Requires:	gambas3-gb-form-mdi >= 3.7.1
+Requires:	gambas3-gb-compress >= 3.7.1
+Requires:	gambas3-gb-desktop >= 3.7.1
+Requires:	gambas3-gb-web >= 3.7.1
+Requires:	gambas3-gb-net-curl >= 3.7.1
+Requires:	gambas3-gb-signal >= 3.7.1
 
 # 4 icecast
-Requires:	gambas3-gb-libxml >= 3.6.2
+Requires:	gambas3-gb-libxml >= 3.7.1
 
 Provides:	Xt7-player3
 Provides:	xt7-player3
