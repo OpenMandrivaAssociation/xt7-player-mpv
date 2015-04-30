@@ -1,15 +1,15 @@
 # First release based on mpv 
 # New versioning, and new deps.
 
-%define mpv_version 0.8.3
-%define gba_version 362
+%define mpv_version 0.9
+%define gba_version 371
 %define version %{mpv_version}%{gba_version}
 %define oname xt7-player-mpv
 
 Summary:	Xt7-player mpv GUI
 Name:		%{oname}
 Version:	%{version}
-Release:	4
+Release:	1
 URL:		http://xt7-player.sourceforge.net/xt7forum/
 Source:		https://github.com/kokoko3k/xt7-player-mpv/archive/%{version}.tar.gz
 Source100:	%{oname}.rpmlintrc
@@ -55,7 +55,7 @@ Requires:	dvbsnoop
 Requires:	dvb-apps
 
 # 4 downloading from youtube
-Requires:	config(youtube-dl) >= 2015.03.09
+Requires:	config(youtube-dl) >= 2015.04.17
 Requires:	xterm
 Requires:	wget
 Requires:	gambas3-gb-util-web >= 3.7.1
@@ -77,7 +77,7 @@ Requires:	%{_lib}taglib1
 Requires:	%{_lib}taglib_c0
 
 # default player
-Requires:	mpv >= 0.8.3
+Requires:	mpv >= 0.9.1
 
 # 4 GUI
 Requires:	gambas3-runtime >= 3.7.1
