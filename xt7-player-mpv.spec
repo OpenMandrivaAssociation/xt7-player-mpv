@@ -42,6 +42,7 @@ BuildRequires:	gambas3-gb-signal >= 3.7.1
 BuildRequires:	gambas3-gb-libxml >= 3.7.1
 BuildRequires:	gambas3-gb-form-stock  >= 3.7.1
 BuildRequires:	gambas3-gb-util-web >= 3.7.1
+BuildRequires:	gambas3-gb-args >= 3.7.1
 
 # 4 desktop file install/check
 BuildRequires:	desktop-file-utils
@@ -98,6 +99,7 @@ Requires:	gambas3-gb-desktop >= 3.7.1
 Requires:	gambas3-gb-web >= 3.7.1
 Requires:	gambas3-gb-net-curl >= 3.7.1
 Requires:	gambas3-gb-signal >= 3.7.1
+Requires:	gambas3-gb-args >= 3.7.1
 
 # 4 icecast
 Requires:	gambas3-gb-libxml >= 3.7.1
