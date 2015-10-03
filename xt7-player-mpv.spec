@@ -109,10 +109,11 @@ Requires:	gambas3-gb-args >= 3.8.1
 # 4 icecast / shoutcast
 Requires:	gambas3-gb-libxml >= 3.8.1
 
-Provides:	Xt7-player3
-Provides:	xt7-player3
-Obsoletes: xt7-player3 
-Obsoletes: Xt7-player3
+Provides:	Xt7-player3 = %{EVRD}
+Provides:	xt7-player3 = %{EVRD}
+
+Obsoletes: xt7-player3 < %{EVRD}  
+Obsoletes: Xt7-player3 < %{EVRD}
 
 AutoReqProv:	no
 
